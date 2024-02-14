@@ -1,0 +1,7 @@
+netsh interface portproxy add v4tov4 listenaddress=192.168.1.3 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+netsh interface portproxy add raspberrypi listenaddress=192.168.1.3 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+netsh interface portproxy add v4tov4 listenaddress=192.168.1.3 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy add v4tov4 listenaddress=192.168.1.2 listenport=1883 connectaddress=127.0.0.1 connectport=1883
+netsh interface portproxy show all
